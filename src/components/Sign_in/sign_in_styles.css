@@ -1,0 +1,73 @@
+.Sign_in_Card_wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(blue,rgb(7, 7, 42),rgb(2, 2, 57),rgb(4, 3, 35));
+
+}
+.sign_up_data_container_card{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    background-color: blue;
+    height: 60%;
+    width: 450px;
+    border-radius:10px;
+    padding: 15px;
+}
+.sign_up_heading{
+    margin: 0;
+    color: white;
+}
+.sign_up_input{
+    width: 100%;
+    background-color: gray;
+    border: 2px solid lightblue;
+    border-radius: 4px;
+    outline: none;
+}
+.sign_up_input:hover{
+    border-bottom: 0;
+    text-decoration: none;
+}
+.user_email{
+    width: 100%;
+    background-color: gray;
+    border: 2px solid lightblue;
+    border-radius: 4px;
+    outline: none;
+}
+.user_password{
+    height: 30px;
+}
+.user_form_labels{
+    color: white;
+    font-size: 25px;    
+}
+.sign_up_btn{
+    height: 35px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.sign_up_btn:hover{
+    background-color: blue;
+    color: white;
+}
+.sign_up_btn:active{
+    background-color: green;
+    color: orange;
+}
+.sign_up_page_redirect{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.error_message{
+    color: red;
+}
