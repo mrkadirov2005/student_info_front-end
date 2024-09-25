@@ -18,8 +18,7 @@ export default function Sing_up() {
         <input type='password' id='user_password' className='sign_up_input  user_password'></input>
         <button className='sign_up_btn' variant='contained' color='black'>Sign Up</button>
         <em className='error_message'>error message</em>
-        <p className='sign_up_page_redirect'>Already have account? <Link to="sing_in" style={{color:"lightblue"}}>Sign in</Link> to your account. </p>
-        {/* TODO correct sign in redirect because it is overwriting like sign_up/sign_in but it should be like sing_in itself */}
+        <p className='sign_up_page_redirect'>Already have account? <Link to="/sign_in" style={{color:"lightblue"}}>Sign in</Link> to your account. </p>
     </div>
     </div>
   )
